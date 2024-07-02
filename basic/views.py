@@ -1,3 +1,3 @@
 from django.http import HttpResponse
-def hello():
-    return HttpResponse("HEllo World")
+def hello(resource):
+    return HttpResponse("Hello World")
